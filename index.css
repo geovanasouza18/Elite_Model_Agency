@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: var(--background-light);
+}
+
+h1,h2{
+    font-family: "Playfair Display", sans-serif;
+    color: var(--primary-color);
+    margin: 1.5rem;
+    font-size: 1.4rem;
+}
+
+p{
+    font-family: "Lora", "Montserrat";
+    padding: .70rem;
+}
+
+:root{
+    --primary-color: #8C8C8C;
+    --text-color: #000000;
+    --background-light:#f5f5f5;
+}
+
+header{
+    overflow: hidden;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+        ),url('img/loira.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    min-height: 90vh;
+}
+
+nav li{
+    display: inline;
+    margin: 0  2rem;
+    text-decoration: none;
+}
+
+nav a {
+    font-family: "Lora";
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#campanha{
+    margin-bottom: 1.5rem;
+}
+
+#contato{
+    border-top: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+#contato a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+address > * {
+    display: inline-block;
+    margin: 1.5rem;
+    text-align: left;
+}
+
+strong{
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    text-align: center;
+    padding: 1rem;
+    color: var(--background-light);
+}
+
+
+
+
